@@ -25,8 +25,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <noscript dangerouslySetInnerHTML={{__html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3TJ8GZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
